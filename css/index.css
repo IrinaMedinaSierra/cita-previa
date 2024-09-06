@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Irina Medina Sierra
+*/
+.etiqueta,.entrada,h1,p,option,input{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+}
+.etiqueta{
+    padding-left: 20px;
+    
+    
+}
+.entrada{
+    text-align: center;
+    width: 70%;
+}
+input {
+    border: 0px;
+    border-bottom: 0.5px solid;
+}
+.caja, .caja2{
+    margin: auto;
+    width: 60%;    
+    box-shadow: 10px 10px 10px black;
+    padding: 20px 0px;
+}
+.caja2{
+    border: 0.5px solid #000;
+    padding: 20px;
+}
+.textarea{
+    margin-left:  auto;
+    margin-right: auto;
+    display: inherit;
+    
+}
+.cirulos,.cuadrado{
+    content: "";
+    width: 15px;
+    height: 15px;
+    margin: 0.5em 0.5em 0 0;
+  
+}
+
+.boton {
+    border: 0.3px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #f2f2f2;
+    text-align: center;
+}
+.boton:hover {
+    border: 0.3px solid #000;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000
+}
+a{
+    color:#000;
+}
+hr{
+    border: none;
+    padding: 50px  0px;
+}
+
